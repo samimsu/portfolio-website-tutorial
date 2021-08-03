@@ -13,6 +13,69 @@ p {
     font-size: 32px;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* header and nav */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 12px 125px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+.logo:hover {
+    color: black;
+    background-color: #ff9600;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    margin: 10px;
+    color: #353535;
+}
+
+.icon:hover {
+    color: #ff9600;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.nav-item {
+    color: white;
+    background-color: #353535;
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: #ff9600;
+}
+
 /* profile */
 
 .profile {
