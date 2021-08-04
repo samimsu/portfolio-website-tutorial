@@ -5,7 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-size: 48px;
 }
 
@@ -97,6 +97,92 @@ header {
     height: auto;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 125px;
+}
+
+/* portfolio */
+
+.portfolio-description {
+    padding: 24px;
+}
+
+.project-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.project {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-info {
+    margin: 15px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.project-description {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.project-btns {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.code-btn {
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.code-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.demo-btn {
+    color: black;
+    background-color: #ff9600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    border: 1px solid #ff9600;
+    border-radius: 3px;
+    padding: 6px 15px;
+    margin: 0 10px;
+}
+
+.demo-btn:hover {
+    background-color: #ff7d00;
+    border-color: #ff7d00;
+}
+
+.project-image {
+    width: 522px;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px lightgrey;
+    position: relative;
+    top: 0;
 }
 
 /* footer */
