@@ -185,6 +185,14 @@ header {
     top: 0;
 }
 
+/* about */
+
+.about-info p {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    padding: 24px;
+}
+
 /* footer */
 
 .footer {
