@@ -193,6 +193,37 @@ header {
     padding: 24px;
 }
 
+/* contact */
+
+.contact-info {
+    padding: 24px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-item:hover>.contact-icon i {
+    color: #ff9600;
+}
+
+.contact-item i {
+    color: #353535;
+}
+
+.contact-icon {
+    width: 48px;
+    text-align: center;
+}
+
+.contact-description {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 10px;
+}
+
 /* footer */
 
 .footer {
