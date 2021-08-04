@@ -98,3 +98,13 @@ header {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+/* footer */
+
+.footer {
+    color: white;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 25px;
+}
