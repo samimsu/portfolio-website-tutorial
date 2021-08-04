@@ -237,3 +237,25 @@ header {
     text-align: center;
     padding: 25px;
 }
+
+/* scroll button */
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ff9600;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+#scrollBtn:hover {
+    background-color: #ff7d00;
+}
